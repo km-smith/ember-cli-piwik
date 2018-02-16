@@ -1,17 +1,20 @@
 {
   "name": "@kysmith/ember-cli-piwik",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "An Ember addon that will setup and inject the Piwik tracking script into your app at build time.",
   "keywords": [
     "ember-addon"
   ],
   "license": "MIT",
-  "author": "",
+  "author": "Kyle Smith <kyle.smith.m@gmail.com>",
   "directories": {
     "doc": "doc",
     "test": "tests"
   },
-  "repository": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": "https://github.com/km-smith/ember-cli-piwik",
   "scripts": {
     "build": "ember build",
     "lint:js": "eslint ./*.js addon addon-test-support app config lib server test-support tests",
