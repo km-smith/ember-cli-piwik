@@ -1,6 +1,6 @@
 {
   "name": "@kysmith/ember-cli-piwik",
-  "version": "1.0.0",
+  "version": "0.1.1",
   "description": "An Ember addon that will setup and inject the Piwik tracking script into your app at build time.",
   "keywords": [
     "ember-addon"
