@@ -39,8 +39,19 @@ before_install:
   - npm install -g npm@4
   - npm --version
 
+before_script:
+  - "sudo chown root /opt/google/chrome/chrome-sandbox"
+  - "sudo chmod 4755 /opt/google/chrome/chrome-sandbox"
+
 script:
   - npm run lint:js
   # Usually, it's ok to finish the test scenario without reverting
   #  to the addon's original dependency state, skipping "cleanup".
   - node_modules/.bin/ember try:one $EMBER_TRY_SCENARIO --skip-cleanup
+
+deploy:
+  provider: npm
+  email: kyle.smith.m@gmail.com
+  api_key: $NPM_TOKEN
+  on:
+    tags: true
