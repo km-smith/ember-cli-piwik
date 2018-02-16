@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/km-smith/ember-cli-piwik.svg?branch=master)](https://travis-ci.org/km-smith/ember-cli-piwik)
+
 # ember-cli-piwik
 
 This README outlines the details of collaborating on this Ember addon.
