@@ -4,6 +4,10 @@
 This addon will setup and inject the Piwik tracking script into your app at build time. At runtime you will be
 able to use `window._paq` as described in the [piwik developer guide](https://developer.matomo.org/guides/tracking-javascript-guide).
 
+## Project Status - 🛑 DEPRECATED 🛑
+Please use [ember-metrics](https://github.com/adopted-ember-addons/ember-metrics) for your piwik (and other tracking script) setup needs.
+
+
 ## Usage
 ### Installation
 `ember install @kysmith/ember-cli-piwik`
